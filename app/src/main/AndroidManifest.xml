@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chatbot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vision"
+        android:label="아리봇"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Splashscreen"
+            android:label="아리봇">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GongjiActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AriActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AnyangMap"/>
+        <activity android:name=".GanghwaMap"/>
+        <activity android:name=".CommunityActivity"/>
+        <activity android:name=".GoodQuestionActivity"/>
+        <activity android:name=".CommunityPlus"/>
+        <activity android:name=".QuestionPlus"/>
+        <activity android:name=".MIC"/>
+        <activity android:name=".CampusIMG"/>
+        <activity android:name=".GanghwaIMG"/>
+        <activity android:name=".Ricemenu"/>
+        <activity android:name=".CampusButton"/>
+        <activity android:name=".MainMenu"/>
+        <activity android:name=".CampusInfo"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Campusvideo"/>
+    </application>
+
+</manifest>

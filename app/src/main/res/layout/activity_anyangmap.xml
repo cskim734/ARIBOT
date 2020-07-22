@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".AnyangMap">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="   안 양 캠 퍼 스"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="355dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/anyangmap"
+        tools:srcCompat="@drawable/anyangmap" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="52dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="right"
+        android:onClick="onClick"
+        android:text="본교 길찾기" />
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="left"
+        app:srcCompat="@drawable/anyangcome"
+        tools:srcCompat="@drawable/anyangcome" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClickgangwha"
+        android:text="강 화 캠 퍼 스"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>정보전기전자공학과</item>
+        <item>컴퓨터공학과</item>
+        <item>소프트웨어학과</item>
+        <item>통계데이터과학과</item>
+        <item>도시정보공학과</item>
+        <item>환경에너지공학과</item>
+        <item>화장품발명디자인학과</item>
+        <item>디지털미디어디자인학과</item>
+        <item>식품영양학과</item>
+        <item>ICT융합공학부</item>
+        <item>도시환경바이오공학부</item>
+        <item>디자인발명창업학부</item>
+        <item>언어문화학부</item>
+        <item>국어국문학과</item>
+        <item>영미언어문화학과</item>
+        <item>러시아언어문화학과</item>
+        <item>중국언어문화학과</item>
+        <item>유아교육학과</item>
+        <item>글로벌경영학과</item>
+        <item>관광경영학과</item>
+        <item>행정학과</item>
+        <item>신학과</item>
+        <item>기독교교육학과</item>
+        <item>융합소프트웨어학과</item>
+        <item>해양바이오공학과</item>
+        <item>공공행정학과</item>
+        <item>관광학과</item>
+    </string-array>
+
+</resources>
